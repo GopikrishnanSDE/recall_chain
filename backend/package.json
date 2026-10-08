@@ -1,0 +1,26 @@
+{
+  "name": "supply-chain-blockchain",
+  "version": "1.0.0",
+  "description": "Blockchain-based Supply Chain Management System",
+  "scripts": {
+    "compile": "hardhat compile",
+    "deploy": "hardhat run scripts/deploy.ts",
+    "deploy:local": "hardhat run scripts/deploy.ts --network localhost",
+    "deploy:ganache": "hardhat run scripts/deploy.ts --network ganache",
+    "deploy:ganache5777": "hardhat run scripts/deploy.ts --network ganache5777",
+    "node": "hardhat node",
+    "test": "hardhat test",
+    "clean": "hardhat clean"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^6.1.0",
+    "@openzeppelin/merkle-tree": "^1.0.8",
+    "@types/node": "^20.19.25",
+    "hardhat": "^2.27.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.9.6"
+  }
+}

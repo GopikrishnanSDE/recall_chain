@@ -1,0 +1,190 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1150" viewBox="0 0 1600 1150">
+<rect width="100%" height="100%" fill="#ffffff"/>
+<text x="800" y="46" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="26" font-weight="bold" fill="#1f2937" text-anchor="middle">MedChain — System Architecture</text>
+<text x="800" y="72" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="14" font-weight="normal" fill="#4b5563" text-anchor="middle">Blockchain-based medicine provenance, scratch-code verification and accountable recalls</text>
+<rect x="20" y="96" width="1560" height="108" rx="6" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+<text x="36" y="120" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="start">USERS</text>
+<rect x="20" y="222" width="1560" height="258" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="36" y="246" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="start">CLIENT</text>
+<rect x="20" y="498" width="1560" height="200" rx="6" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+<text x="36" y="522" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="start">SERVICES</text>
+<rect x="20" y="716" width="1560" height="260" rx="6" fill="#ffffff" stroke="#e5e7eb" stroke-width="1"/>
+<text x="36" y="740" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="start">BLOCKCHAIN</text>
+<rect x="20" y="994" width="1560" height="140" rx="6" fill="#fafafa" stroke="#e5e7eb" stroke-width="1"/>
+<text x="36" y="1018" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="start">DATA PLACEMENT</text>
+<rect x="190" y="112" width="260" height="78" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="320" y="140" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">Contract Owner (admin)</text>
+<text x="320" y="162" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">registers roles · sets recall window</text>
+<text x="320" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle" font-style="italic">MetaMask wallet</text>
+<rect x="490" y="112" width="360" height="78" rx="10" fill="#ecfdf5" stroke="#059669" stroke-width="1.5"/>
+<text x="670" y="140" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">Supply-chain actors</text>
+<text x="670" y="162" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">Manufacturer · Supplier · Distributor · Seller</text>
+<text x="670" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle" font-style="italic">MetaMask wallet per role</text>
+<rect x="890" y="112" width="290" height="78" rx="10" fill="#fdf2f8" stroke="#db2777" stroke-width="1.5"/>
+<text x="1035" y="140" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="middle">Patient / Consumer</text>
+<text x="1035" y="162" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#4b5563" text-anchor="middle">scratches pack code · no wallet needed</text>
+<text x="1035" y="178" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle" font-style="italic">device key pair in browser</text>
+<rect x="190" y="236" width="990" height="236" rx="10" fill="#eff6ff" stroke="#2563eb" stroke-width="2"/>
+<text x="210" y="262" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#2563eb" text-anchor="start">Web client</text>
+<text x="1060" y="262" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#4b5563" text-anchor="end">Next.js 16 · React 19 · TypeScript · Tailwind / shadcn-ui</text>
+<text x="210" y="286" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="start">Pages</text>
+<rect x="210" y="294" width="126" height="58" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="273" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Dashboard</text>
+<text x="273" y="338" font-family="Menlo, Consolas, Courier New, monospace" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle">/</text>
+<rect x="347" y="294" width="126" height="58" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="410" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Register Roles</text>
+<text x="410" y="338" font-family="Menlo, Consolas, Courier New, monospace" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle">/register-roles</text>
+<rect x="484" y="294" width="126" height="58" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="547" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Order Materials</text>
+<text x="547" y="338" font-family="Menlo, Consolas, Courier New, monospace" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle">/order-materials</text>
+<rect x="621" y="294" width="126" height="58" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="684" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Supply Materials</text>
+<text x="684" y="338" font-family="Menlo, Consolas, Courier New, monospace" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle">/supply-materials</text>
+<rect x="758" y="294" width="126" height="58" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="821" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Track Materials</text>
+<text x="821" y="338" font-family="Menlo, Consolas, Courier New, monospace" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle">/track-materials</text>
+<rect x="895" y="294" width="126" height="58" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.4"/>
+<text x="958" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Recalls</text>
+<text x="958" y="338" font-family="Menlo, Consolas, Courier New, monospace" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle">/recall</text>
+<rect x="1032" y="294" width="126" height="58" rx="8" fill="#ffffff" stroke="#db2777" stroke-width="1.4"/>
+<text x="1095" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Verify a Pack</text>
+<text x="1095" y="338" font-family="Menlo, Consolas, Courier New, monospace" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle">/verify</text>
+<text x="210" y="376" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="bold" fill="#6b7280" text-anchor="start">Libraries (src/lib)</text>
+<rect x="210" y="384" width="230" height="76" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<text x="222" y="405" font-family="Menlo, Consolas, Courier New, monospace" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="start">web3.ts · supplyChain.ts</text>
+<text x="222" y="425" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">MetaMask connection and</text>
+<text x="222" y="440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">contract calls (web3.js 4)</text>
+<rect x="450" y="384" width="230" height="76" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<text x="462" y="405" font-family="Menlo, Consolas, Courier New, monospace" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="start">batchCodes.ts</text>
+<text x="462" y="425" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">pack secrets, leaves, Merkle root,</text>
+<text x="462" y="440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">codes CSV (@openzeppelin/merkle-tree)</text>
+<rect x="690" y="384" width="230" height="76" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<text x="702" y="405" font-family="Menlo, Consolas, Courier New, monospace" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="start">api.ts</text>
+<text x="702" y="425" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">HTTP client for the MedChain</text>
+<text x="702" y="440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">server (verify, claim, proofs)</text>
+<rect x="930" y="384" width="230" height="76" rx="8" fill="#ffffff" stroke="#2563eb" stroke-width="1.2"/>
+<text x="942" y="405" font-family="Menlo, Consolas, Courier New, monospace" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="start">customerStore.ts</text>
+<text x="942" y="425" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">device key pair and claimed packs;</text>
+<text x="942" y="440" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">re-checks for recalls every 30 s</text>
+<defs><marker id="m059669" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#059669"/></marker></defs>
+<path d="M400,190 L400,292" fill="none" stroke="#059669" stroke-width="1.8" marker-end="url(#m059669)"/>
+<path d="M680,190 L680,292" fill="none" stroke="#059669" stroke-width="1.8" marker-end="url(#m059669)"/>
+<defs><marker id="mdb2777" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#db2777"/></marker></defs>
+<path d="M1095,190 L1095,292" fill="none" stroke="#db2777" stroke-width="1.8" marker-end="url(#mdb2777)"/>
+<text x="410" y="214" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">admin actions</text>
+<text x="690" y="214" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">create · move · recall batches</text>
+<text x="1085" y="214" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="end">verify · claim</text>
+<rect x="190" y="512" width="370" height="172" rx="10" fill="#fff7ed" stroke="#ea580c" stroke-width="2"/>
+<text x="210" y="540" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#ea580c" text-anchor="start">MetaMask wallet</text>
+<text x="210" y="566" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#4b5563" text-anchor="start">EIP-1193 browser provider</text>
+<text x="210" y="585" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#4b5563" text-anchor="start">Holds staff private keys</text>
+<text x="210" y="604" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#4b5563" text-anchor="start">Signs every state-changing transaction</text>
+<text x="210" y="623" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#4b5563" text-anchor="start">(stage moves, recall, quarantine, ack)</text>
+<rect x="620" y="512" width="560" height="172" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="2"/>
+<text x="640" y="540" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#d97706" text-anchor="start">MedChain server</text>
+<text x="780" y="540" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#4b5563" text-anchor="start">Node.js · Express · ethers v6</text>
+<text x="640" y="566" font-family="Menlo, Consolas, Courier New, monospace" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">POST /api/batches/:id/leaves</text>
+<text x="640" y="584" font-family="Menlo, Consolas, Courier New, monospace" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">GET  /api/batches/:id/proof/:serial</text>
+<text x="640" y="602" font-family="Menlo, Consolas, Courier New, monospace" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">POST /api/verify</text>
+<text x="640" y="620" font-family="Menlo, Consolas, Courier New, monospace" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">POST /api/claim  (relayed)</text>
+<text x="640" y="638" font-family="Menlo, Consolas, Courier New, monospace" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">GET  /api/units/:id/:serial</text>
+<text x="640" y="656" font-family="Menlo, Consolas, Courier New, monospace" font-size="11" font-weight="normal" fill="#1f2937" text-anchor="start">GET  /api/batches/:id/provenance</text>
+<rect x="918" y="556" width="246" height="54" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="930" y="576" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="start">Relayer signer</text>
+<text x="930" y="596" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">pays gas · one tx at a time</text>
+<rect x="918" y="618" width="246" height="54" rx="8" fill="#ffffff" stroke="#d97706" stroke-width="1.2"/>
+<text x="930" y="638" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" fill="#1f2937" text-anchor="start">File store  server/data/*.json</text>
+<text x="930" y="658" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">leaf hashes per batch (no secrets)</text>
+<defs><marker id="m2563eb" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#2563eb"/></marker></defs>
+<path d="M325,460 L325,510" fill="none" stroke="#2563eb" stroke-width="1.8" marker-end="url(#m2563eb)"/>
+<text x="335" y="490" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">sign tx</text>
+<path d="M660,460 L660,510" fill="none" stroke="#2563eb" stroke-width="1.8" marker-end="url(#m2563eb)"/>
+<text x="670" y="490" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">upload leaves</text>
+<path d="M1095,352 L1095,372 L1170,372 L1170,490 L1060,490 L1060,510" fill="none" stroke="#db2777" stroke-width="1.8" marker-end="url(#mdb2777)"/>
+<text x="1050" y="482" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="end" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">verify · claim (HTTP)</text>
+<rect x="190" y="730" width="990" height="236" rx="10" fill="#ffffff" stroke="#7c3aed" stroke-width="2" stroke-dasharray="7 4"/>
+<text x="210" y="756" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="16" font-weight="bold" fill="#7c3aed" text-anchor="start">Ethereum-compatible network</text>
+<text x="450" y="756" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13" font-weight="normal" fill="#4b5563" text-anchor="start">Ganache (127.0.0.1:7545)  /  Hardhat Network (chain ID 1337)</text>
+<rect x="210" y="770" width="950" height="182" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.6"/>
+<text x="228" y="794" font-family="Menlo, Consolas, Courier New, monospace" font-size="15" font-weight="bold" fill="#1f2937" text-anchor="start">SupplyChain.sol</text>
+<text x="380" y="794" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="normal" fill="#4b5563" text-anchor="start">Solidity 0.8.19 · single contract · OpenZeppelin MerkleProof + ECDSA</text>
+<rect x="228" y="808" width="145" height="92" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="300.5" y="832" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Role registry</text>
+<text x="300.5" y="856" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">onlyOwner add*()</text>
+<text x="300.5" y="873" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">actorIdOf O(1) lookup</text>
+<rect x="381" y="808" width="145" height="92" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="453.5" y="832" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Batch lifecycle</text>
+<text x="453.5" y="856" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">5 role-gated stages</text>
+<text x="453.5" y="873" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">notRecalled guard</text>
+<rect x="534" y="808" width="145" height="92" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="606.5" y="832" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Pack verification</text>
+<text x="606.5" y="856" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">Merkle root / batch</text>
+<text x="606.5" y="873" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">unitStatus() view</text>
+<rect x="687" y="808" width="145" height="92" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="759.5" y="832" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Pack claim</text>
+<text x="759.5" y="856" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">claimUnit / ...For</text>
+<text x="759.5" y="873" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">EIP-191 signature</text>
+<rect x="840" y="808" width="145" height="92" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="912.5" y="832" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Recall</text>
+<text x="912.5" y="856" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">recall · quarantine</text>
+<text x="912.5" y="873" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">ackRecall · escalate</text>
+<rect x="993" y="808" width="145" height="92" rx="8" fill="#ffffff" stroke="#7c3aed" stroke-width="1.2"/>
+<text x="1065.5" y="832" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12.5" font-weight="bold" fill="#1f2937" text-anchor="middle">Closure report</text>
+<text x="1065.5" y="856" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">quarantined+claimed</text>
+<text x="1065.5" y="873" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="middle">+unaccounted = qty</text>
+<text x="228" y="930" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="bold" fill="#4b5563" text-anchor="start">Events:</text>
+<text x="282" y="930" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">BatchRegistered · ProductStageUpdated · UnitClaimed · BatchRecalled · UnitsQuarantined · RecallAcknowledged · RecallEscalated</text>
+<defs><marker id="mea580c" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ea580c"/></marker></defs>
+<path d="M375,684 L375,728" fill="none" stroke="#ea580c" stroke-width="1.8" marker-end="url(#mea580c)"/>
+<text x="385" y="706" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">signed txs + reads (JSON-RPC)</text>
+<defs><marker id="md97706" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#d97706"/></marker></defs>
+<path d="M760,684 L760,728" fill="none" stroke="#d97706" stroke-width="1.8" marker-end="url(#md97706)"/>
+<text x="770" y="706" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">view calls: unitStatus, closureReport</text>
+<path d="M1040,684 L1040,728" fill="none" stroke="#d97706" stroke-width="1.8" marker-end="url(#md97706)"/>
+<text x="1050" y="706" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11" font-weight="normal" fill="#4b5563" text-anchor="start">relayed claimUnitFor</text>
+<rect x="1270" y="236" width="290" height="730" rx="10" fill="#f8fafc" stroke="#475569" stroke-width="2"/>
+<text x="1415" y="264" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="15" font-weight="bold" fill="#475569" text-anchor="middle">Development &amp; deployment</text>
+<text x="1415" y="284" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="middle">backend/ — Hardhat 2.27 · TypeScript</text>
+<rect x="1290" y="304" width="250" height="104" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="1306" y="332" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="start">Compile</text>
+<text x="1306" y="358" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">solc 0.8.19, optimizer 200 runs</text>
+<text x="1306" y="377" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">ABI → client/src/artifacts</text>
+<rect x="1290" y="432" width="250" height="104" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="1306" y="460" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="start">Test</text>
+<text x="1306" y="486" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">33 Mocha/Chai tests (passing)</text>
+<text x="1306" y="505" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">hardhat-gas-reporter</text>
+<rect x="1290" y="560" width="250" height="104" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="1306" y="588" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="start">Deploy</text>
+<text x="1306" y="614" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">scripts/deploy.ts</text>
+<text x="1306" y="633" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">address → deployments.json</text>
+<rect x="1290" y="688" width="250" height="104" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="1306" y="716" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="start">Local chain</text>
+<text x="1306" y="742" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">Ganache GUI on port 7545</text>
+<text x="1306" y="761" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">relayer = account #9</text>
+<rect x="1290" y="816" width="250" height="104" rx="8" fill="#ffffff" stroke="#475569" stroke-width="1.2"/>
+<text x="1306" y="844" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#1f2937" text-anchor="start">Typechain</text>
+<text x="1306" y="870" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">typed contract bindings</text>
+<text x="1306" y="889" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="11.5" font-weight="normal" fill="#4b5563" text-anchor="start">for tests and scripts</text>
+<defs><marker id="m475569" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#475569"/></marker></defs>
+<path d="M1270,330 L1182,330" fill="none" stroke="#475569" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#m475569)"/>
+<text x="1226" y="318" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">ABI + address</text>
+<path d="M1270,560 L1182,560" fill="none" stroke="#475569" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#m475569)"/>
+<text x="1226" y="548" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">ABI + address</text>
+<path d="M1270,860 L1182,860" fill="none" stroke="#475569" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#m475569)"/>
+<text x="1226" y="848" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="10.5" font-weight="normal" fill="#4b5563" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke" stroke-linejoin="round">deploy</text>
+<rect x="190" y="1010" width="440" height="112" rx="10" fill="#f5f3ff" stroke="#7c3aed" stroke-width="1.5"/>
+<text x="206" y="1036" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#7c3aed" text-anchor="start">On-chain (SupplyChain.sol)</text>
+<text x="206" y="1060" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Actors and roles; batch root, quantity, manufacturer</text>
+<text x="206" y="1079" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Batch stage, unit state and anonymous claimant key</text>
+<text x="206" y="1098" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Recall deadline, holders, acks, escalations</text>
+<rect x="650" y="1010" width="440" height="112" rx="10" fill="#fffbeb" stroke="#d97706" stroke-width="1.5"/>
+<text x="666" y="1036" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#d97706" text-anchor="start">Server (server/data/*.json)</text>
+<text x="666" y="1060" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Public leaf hash of every pack, per batch</text>
+<text x="666" y="1079" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Accepted only if leaves rebuild the on-chain root</text>
+<text x="666" y="1098" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Cannot forge a code: the contract checks proofs</text>
+<rect x="1110" y="1010" width="440" height="112" rx="10" fill="#fdf2f8" stroke="#db2777" stroke-width="1.5"/>
+<text x="1126" y="1036" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="13.5" font-weight="bold" fill="#db2777" text-anchor="start">Browser / paper only</text>
+<text x="1126" y="1060" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Scratch secrets: codes CSV → printer → pack</text>
+<text x="1126" y="1079" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">Customer private key (generated on the phone)</text>
+<text x="1126" y="1098" font-family="Helvetica Neue, Helvetica, Arial, sans-serif" font-size="12" font-weight="normal" fill="#1f2937" text-anchor="start">List of packs claimed on this device</text>
+</svg>

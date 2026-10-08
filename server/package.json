@@ -1,0 +1,21 @@
+{
+  "name": "medchain-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Stores batch code fingerprints, serves Merkle proofs and relays customer claims",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@openzeppelin/merkle-tree": "^1.0.8",
+    "cors": "^2.8.5",
+    "ethers": "^6.13.5",
+    "express": "^4.21.2"
+  }
+}
