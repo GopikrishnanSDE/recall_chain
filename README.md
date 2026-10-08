@@ -2,6 +2,10 @@
 
 A blockchain-based supply chain management system designed to improve transparency, traceability, and trust across the movement of goods from raw material supplier to final consumer. The current project implements a decentralized application (dApp) that records product lifecycle events on-chain, links them to specific stakeholder roles, and exposes a web interface for operational management and traceability.
 
+## Demo video
+
+▶️ **[Watch the demo (MP4)](https://github.com/GopikrishnanSDE/recall_chain/raw/main/assets/demo/medchain-demo.mp4)**
+
 ## What's new in this version
 
 This version turns the generic supply-chain demo into a **medicine provenance ledger**. Five features were added on top of the original role/stage flow. Full details, a demo script and known limitations are in [NEW-FEATURES.md](NEW-FEATURES.md).
